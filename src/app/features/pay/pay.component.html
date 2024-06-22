@@ -1,0 +1,23 @@
+<!-- Pago -->
+<div class="container py-5">
+    <h2 class="text-center text-custom mb-4">Pago</h2>
+    <div *ngIf="alertMessage" class="alert alert-{{alertType}} alert-dismissible fade show" role="alert">
+        {{alertMessage}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <form #paymentForm="ngForm" (ngSubmit)="onSubmit(paymentForm)">
+        <div class="mb-3">
+            <label for="card-number" class="form-label">Número de Tarjeta</label>
+            <input type="text" class="form-control" id="card-number" name="cardNumber" ngModel required>
+        </div>
+        <div class="mb-3">
+            <label for="expiry-date" class="form-label">Fecha de Expiración</label>
+            <input type="text" class="form-control" id="expiry-date" name="expiryDate" ngModel required>
+        </div>
+        <div class="mb-3">
+            <label for="cvv" class="form-label">CVV</label>
+            <input type="text" class="form-control" id="cvv" name="cvv" ngModel required>
+        </div>
+        <button type="submit" class="btn btn-primary">Pagar</button>
+    </form>
+</div>
