@@ -32,14 +32,14 @@ describe('ResetpassComponent', () => {
   /**
    * Prueba para verificar que el componente se crea correctamente.
    */
-  it('debería crear el componente', () => {
+  it('crear el componente', () => {
     expect(componente).toBeTruthy();
   });
 
   /**
    * Prueba para verificar si el correo electrónico está registrado.
    */
-  it('debería verificar si el correo electrónico está registrado', () => {
+  it('verificar si el correo electrónico está registrado', () => {
     const usuario: User = {
       id: 1,
       fullName: 'Test User',
@@ -61,7 +61,7 @@ describe('ResetpassComponent', () => {
   /**
    * Prueba para verificar que la contraseña se actualiza si la nueva contraseña y la confirmación coinciden.
    */
-  it('debería actualizar la contraseña si la nueva contraseña y la confirmación coinciden', () => {
+  it('actualizar la contraseña si la nueva contraseña y la confirmación coinciden', () => {
     const usuario: User = {
       id: 1,
       fullName: 'Test User',

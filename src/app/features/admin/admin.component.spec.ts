@@ -34,7 +34,7 @@ describe('AdminComponent', () => {
   /**
    * Prueba para verificar que un usuario se edita correctamente.
    */
-  it('debería editar un usuario correctamente', fakeAsync(() => {
+  it('editar un usuario correctamente', fakeAsync(() => {
     // Configurar datos de prueba en localStorage
     const testUsers = [
       { id: 1, fullName: 'Jose Pérez', username: 'joseperez', email: 'joseperez@example.com', birthdate: '1990-01-01', role: 'client', password: 'Joseperez12345!', confirmPassword: 'Joseperez12345!', purchaseHistory: [], cart: [] }

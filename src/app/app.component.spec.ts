@@ -29,14 +29,14 @@ describe('AppComponent', () => {
   /**
    * Prueba para verificar que el componente se haya creado correctamente.
    */
-  it('debería renderizar el componente', () => {
+  it('renderizar el componente', () => {
     expect(component).toBeTruthy();
   });
 
   /**
    * Prueba para verificar que el título se establece correctamente.
    */
-  it(`debería tener el título 'Exp2_S6'`, () => {
+  it(`título 'Exp2_S6'`, () => {
     expect(component.title).toEqual('Exp2_S6');
   });
 

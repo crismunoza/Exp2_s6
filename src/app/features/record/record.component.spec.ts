@@ -27,7 +27,7 @@ describe('RecordComponent', () => {
   /**
    * Prueba para verificar que el historial de compras del usuario logueado se carga correctamente.
    */
-  it('debería cargar el historial de compras del usuario logueado', () => {
+  it('cargar el historial de compras del usuario logueado', () => {
     const mockUser: User = {
       id: 1,
       fullName: 'John Doe',

@@ -37,7 +37,7 @@ describe('PayComponent', () => {
   /**
    * Prueba para verificar que el pago se completa correctamente con datos válidos.
    */
-  it('debería completar el pago correctamente con datos válidos', fakeAsync(() => {
+  it('completar el pago correctamente con datos válidos', fakeAsync(() => {
     const testUser = {
       id: 1,
       fullName: 'Test User',

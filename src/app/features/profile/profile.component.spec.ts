@@ -35,7 +35,7 @@ describe('ProfileComponent', () => {
   /**
    * Prueba para verificar que los datos del usuario logueado se cargan en el formulario.
    */
-  it('debería cargar los datos del usuario logueado en el formulario', () => {
+  it('cargar los datos del usuario logueado en el formulario', () => {
     const mockUser: User = {
       id: 1,
       fullName: 'Jose Pérez',

@@ -80,7 +80,7 @@ describe('CarComponent', () => {
   /**
    * Prueba para verificar que el carrito se inicializa correctamente cuando el usuario está logueado.
    */
-  it('debería inicializar el carrito correctamente cuando el usuario está logueado', () => {
+  it('inicializar el carrito correctamente cuando el usuario está logueado', () => {
     const mockCart: Product[] = [
       { name: 'Producto 1', brand: 'Marca 1', type: 'Tipo 1', price: 100, imageUrl: '', showMoreInfo: false, moreInfo: '', hidden: false },
       { name: 'Producto 2', brand: 'Marca 2', type: 'Tipo 2', price: 200, imageUrl: '', showMoreInfo: false, moreInfo: '', hidden: false }

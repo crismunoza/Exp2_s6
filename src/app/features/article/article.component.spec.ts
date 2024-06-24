@@ -42,7 +42,7 @@ describe('ArticleComponent', () => {
   /**
    * Prueba para verificar que un producto se agrega correctamente al carrito.
    */
-  it('debería agregar un producto al carrito', () => {
+  it('agregar un producto al carrito', () => {
     const nuevoUsuario: User = {
       id: 1,
       fullName: 'Jose Pérez',
